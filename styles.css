@@ -1,0 +1,29 @@
+body{
+    background-color: #E9E9E9;
+    font-family:'Samsung One';
+    color:#3d3d3d;
+}
+
+.hidden{
+    display: none;
+}
+
+.brand-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.event-details{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
