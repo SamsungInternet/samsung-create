@@ -1,29 +1,68 @@
-body{
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
     background-color: #E9E9E9;
-    font-family:'Samsung One';
-    color:#3d3d3d;
-}
-
-.hidden{
-    display: none;
-}
-
-.brand-logos{
+    font-family: 'Samsung One', Arial, sans-serif;
+    color: #3d3d3d;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-}
-
-.event-details{
-    margin: auto;
-    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-.main-content{
+h3 {
+    font-weight: normal;
+}
+
+a,
+a:active,
+a:visited {
+    color: #3d3d3d;
+}
+
+a:hover {
+    color: #666;
+}
+
+.hidden {
+    display: none;
+}
+
+.main-content {
+    padding: 20px 10px;
+    min-width: 70%;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.title img,
+.slogan img {
+    max-width: 100%;
+    max-width: calc(100% - 20px);
+}
+
+.brand-logos {
+    margin: 30px auto;
+    width: 50%;
     display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.brand-logos img {
+    width: 40px;
+}
+
+.event-details {
+    margin: auto;
+    width: 60%;
+    text-align: center;
 }
