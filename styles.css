@@ -10,9 +10,15 @@ body {
     color: #3d3d3d;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+@media (min-height: 550px) {
+    /* Vertically centres, avoiding the top being cut off on short screens */
+    body {
+        justify-content: center;
+    }
 }
 
 h3 {
