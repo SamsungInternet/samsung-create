@@ -59,6 +59,7 @@ a:hover {
 
 .brand-logos img {
     width: 40px;
+    padding: 0 10px;
 }
 
 .event-details {
