@@ -8,6 +8,7 @@
     <link href="styles.css" rel="stylesheet">
     <link href="/images/favicon.png" rel="icon">
     <title>Samsung Create 2018</title>
+    <script type="javascript" defer src="index.js"></script>
     <!-- Twitter -->
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@samsunginternet"/>
@@ -22,6 +23,23 @@
     <meta property="og:image" content="https://samsungcreate.com/images/create-teaser.png"/>
   </head>
   <body>
+
+    <header>
+      <a class="small-logo" href="/"><img src="images/logo_create_small_white.svg" alt="Small Create logo"/></a>
+      <label id="hamburger-menu" for="menu-toggle" class="hamburger-menu" title="Toggle menu">≡</label>
+      <input type="checkbox" id="menu-toggle"/>
+      <nav>
+        <ul>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#scholarships">Scholarships</a></li>
+          <!--<li><a href="#good-causes">Good Causes</a></li>-->
+          <li><a href="/code-of-conduct">Code of Conduct</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <div class="main-content">
       <div class="title">
         <img src="images/logo_create.svg" alt="Create Logo">
@@ -38,10 +56,120 @@
             <a href="https://www.artik.io/"><img src="images/logo_artik.svg" alt="Samsung ARTIK"></a>
             <a href="http://www.samsung.com/us/explore/bixby/"><img src="images/logo_bixby.svg" alt="Samsung Bixby"></a>
         </div>
-        <h3>April 19-20, 2018</h3>
-        <p class="address">
-          <a href="https://goo.gl/maps/xTVpaCFjLYs">Samsung Semiconductor<br>3655 N 1st St, San Jose, CA 95134, USA</a>
+
+        <h4>
+          Create is a conference for web developers and designers, to showcase best practices, celebrate creativity
+          and explore the web’s exciting future.
+        </h4>
+
+        <h2 class="date-and-location">19-20 April 2018 // San Jose, CA, USA</h2>
+
+        <h4>Registration coming soon.</h4>
+
+        <h3 id="speakers">Speakers</h3>
+
+        <div class="speakers">
+
+          <div>
+            <img src="images/speakers/spersing.jpg" alt="Sandra Persing"/>
+            <h5><a href="https://twitter.com/SandraPersing">Sandra Persing</a></h5>
+            <p>Senior Program Manager, Developer Relations, Mozilla</p>
+          </div>
+
+          <div>
+            <img src="images/speakers/ktrogolo.jpg" alt="Kathy Trogolo"/>
+            <h5><a href="https://twitter.com/ktrogolo">Kathy Trogolo</a></h5>
+            <p>CEO of Fasility LLC, Founder of Women in the Next Realities</p>
+          </div>
+
+          <div>
+            <img src="images/speakers/dappelquist.jpg" alt="Daniel Appelquist"/>
+            <h5><a href="https://samsunginter.net/team#daniel-appelquist">Daniel Appelquist</a></h5>
+            <p>Director of Web Advocacy & Open Source, Samsung Research UK</p>
+          </div>
+
+          <div>
+            <img src="images/speakers/lgombos.jpg" alt="Laszlo Gombos"/>
+            <h5><a href="https://twitter.com/laszlogombos">Laszlo Gombos</a></h5>
+            <p>Director of Engineering, Samsung Research America</p>
+          </div>
+
+          <!--
+          <div>
+            <img src="images/speakers/hchung.jpg" alt="Heejin Chung"/>
+            <h5><a href="https://www.linkedin.com/in/heejin-chung-b652b6a/">Heejin Chung</a></h5>
+            <p>TODO, Samsung Internet</p>
+          </div>
+          -->
+
+          <div>
+            <img src="images/speakers/wxiao.jpg" alt="Wei Xiao"/>
+            <h5><a href="https://www.linkedin.com/in/wei-xiao-37a18b2">Wei Xiao</a></h5>
+            <p>Technical Partnership Management, Technical OutReach, Samsung Strategy and Innovation Center </p>
+          </div>
+
+          <div>
+            <img src="images/speakers/acannon.jpg" alt="Ada Rose Cannon"/>
+            <h5><a href="https://samsunginter.net/team#ada-rose-cannon">Ada Rose Cannon</a></h5>
+            <p>Developer Advocate, Samsung Internet</p>
+          </div>
+
+          <div>
+            <img src="images/speakers/jfranchetti.jpg" alt="Jo Franchetti"/>
+            <h5><a href="https://samsunginter.net/team#jo-franchetti">Jo Franchetti</a></h5>
+            <p>Developer Advocate, Samsung Internet</p>
+          </div>
+
+          <div>
+            <img src="images/speakers/dgonzalez.jpg" alt="Diego Gonzalez"/>
+            <h5><a href="https://samsunginter.net/team#diego-gonzález">Diego González-Zúñiga</a></h5>
+            <p>Developer Advocate, Samsung Internet</p>
+          </div>
+
+          <div>
+            <img src="images/speakers/dhernandez.jpg" alt="Damon Hernandez"/>
+            <h5><a href="https://samsunginter.net/team#ada-rose-edwards">Damon Hernandez</a></h5>
+            <p>Product Manager &amp; Developer Advocate, Samsung Internet</p>
+          </div>
+
+        </div>
+
+        <h4>More speakers to be announced soon.</h4>
+
+        <h3 id="schedule">Schedule</h3>
+
+        <p><strong>Thursday April 19th</strong> - Talks and exhibits</p>
+
+        <p><strong>Friday April 20th</strong> - Talks, workshops and exhibits</p>
+
+        <p>Further details to follow.</p>
+
+        <h3 id="location">Location</h3>
+
+        <h4 class="address">
+          Samsung Semiconductor<br>3655 N 1st St, San Jose, CA 95134, USA
+        </h4>
+        <p><a href="https://goo.gl/maps/xTVpaCFjLYs">View Map</a></p>
+
+        <h3 id="scholarships">Scholarships</h3>
+
+        <p>
+          To make the conference as accessible as possible, we will offer a number of free
+          tickets for individuals whose personal circumstances may otherwise prevent
+          them from attending. To find out more information and apply, <a href="mailto:webadvocacy@samsung.com">please contact us</a>.
         </p>
+
+        <!--
+        <h3 id="good-causes">Good Causes</h3>
+
+        <p>
+          We are pleased to partnering with Charity Name 1 and Charity Name 2. As well as
+          donating any profits to these organisations, we are providing them with free tickets.
+        </p>
+        -->
+
+        <h4 class="code-of-conduct-link"><a href="/code-of-conduct">Code of Conduct</a></h4>
+
         <p class="social"><a href="https://twitter.com/samsunginternet"><img src="images/twitter.svg" alt="Follow us on Twitter for updates"/></a> <a href="https://www.facebook.com/samsunginternet"><img src="images/fb.svg" alt="Follow us on Facebook for updates"></a></p>
         <p class="brought-by">Brought to you by team <a href="https://samsunginter.net">Samsung Internet</a>.</p>
       </div>
