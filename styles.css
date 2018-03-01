@@ -12,15 +12,14 @@ body {
     box-sizing: border-box;
 }
 
-
 .main-content {
     padding: 10px;
     min-width: 70%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
     .main-content {
-        padding: 20px;
+        /*padding: 80px 20px 20px 20px;*/
     }
 }
 
@@ -77,10 +76,77 @@ a:hover {
 
 .hidden {
     display: none;
+    float: right;
+}
+
+header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(10, 10, 10, 0.8);
+    color: #fff;
+    padding: 5px 15px;
+}
+
+@media (min-width: 700px) {
+    header {
+        /*position: fixed;*/
+    }
+}
+
+header .small-logo {
+    float: left;
+}
+
+header .small-logo img {
+    height: 40px;
+    margin-top: 5px;
+}
+
+.hamburger-menu {
+    font-size: 3em;
+    float: right;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    margin-top: 5px;
+    float: left;
+    list-style-type: none;
+    padding: 5px 10px;
+}
+
+nav li a,
+nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #ddd;
+}
+
+@media (min-width: 700px) {
+    .hamburger-menu {
+        display: none;
+
+    }
+    nav {
+        display: block;
+    }
 }
 
 .title {
-    margin-bottom: 30px;
+    margin: 20px 0 30px;
 }
 
 .title img,
@@ -141,7 +207,7 @@ a:hover {
     margin-top: 1.5em;
 }
 
-.code-of-conduct {
+.code-of-conduct-link {
     margin: 2em 0;
 }
 
