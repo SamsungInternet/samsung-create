@@ -19,7 +19,7 @@ body {
 
 @media (min-width: 700px) {
     .main-content {
-        /*padding: 80px 20px 20px 20px;*/
+        padding: 80px 20px 20px 20px;
     }
 }
 
@@ -90,7 +90,7 @@ header {
 
 @media (min-width: 700px) {
     header {
-        /*position: fixed;*/
+        position: fixed;
     }
 }
 
@@ -123,6 +123,14 @@ nav {
 
 #menu-toggle:checked + nav {
     display: block;
+}
+
+/* Fix anchor links to show under fixed header */
+:target:before {
+    content: "";
+    display: block;
+    height: 60px;
+    margin: -60px 0 0;
 }
 
 nav ul {
