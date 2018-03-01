@@ -8,6 +8,7 @@
     <link href="styles.css" rel="stylesheet">
     <link href="/images/favicon.png" rel="icon">
     <title>Samsung Create 2018</title>
+    <script type="javascript" defer src="index.js"></script>
     <!-- Twitter -->
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@samsunginternet"/>
@@ -25,7 +26,8 @@
 
     <header>
       <a class="small-logo" href="/"><img src="images/logo_create_small_white.svg" alt="Small Create logo"/></a>
-      <span class="hamburger-menu" title="menu" aria-haspopup="true" onclick="openMenu()">≡</span>
+      <label id="hamburger-menu" for="menu-toggle" class="hamburger-menu" title="Toggle menu">≡</label>
+      <input type="checkbox" id="menu-toggle"/>
       <nav>
         <ul>
           <li><a href="#speakers">Speakers</a></li>
@@ -82,7 +84,7 @@
           <div>
             <img src="images/speakers/dappelquist.jpg" alt="Daniel Appelquist"/>
             <h5><a href="https://samsunginter.net/team#daniel-appelquist">Daniel Appelquist</a></h5>
-            <p>Director of Web Advocacy & Open Source, Samsung</p>
+            <p>Director of Web Advocacy & Open Source, Samsung Research UK</p>
           </div>
 
           <div>
