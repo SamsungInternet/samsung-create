@@ -8,21 +8,61 @@ body {
     background-color: #E9E9E9;
     font-family: 'Samsung One', Arial, sans-serif;
     color: #3d3d3d;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
+    box-sizing: border-box;
 }
 
-@media (min-height: 550px) {
-    /* Vertically centres, avoiding the top being cut off on short screens */
-    body {
-        justify-content: center;
+
+.main-content {
+    padding: 10px;
+    min-width: 70%;
+}
+
+@media (min-width: 600px) {
+    .main-content {
+        padding: 20px;
     }
 }
 
-h3 {
+.code-of-conduct {
+    text-align: left;
+}
+
+h2 {
+    font-size: 2.2em;
     font-weight: normal;
+}
+
+.date-and-location {
+    margin: 1.5em 0;
+}
+
+h3 {
+    margin-top: 2em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+h5 {
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+li {
+    font-size: 1.1em;
+    line-height: 1.6em;
 }
 
 a,
@@ -39,11 +79,6 @@ a:hover {
     display: none;
 }
 
-.main-content {
-    padding: 20px 10px;
-    min-width: 70%;
-}
-
 .title {
     margin-bottom: 30px;
 }
@@ -54,9 +89,13 @@ a:hover {
     max-width: calc(100% - 20px);
 }
 
+.coc-page .title img {
+    width: 200px;
+}
+
 .brand-logos {
     margin: 30px auto 40px;
-    width: 50%;
+    max-width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -68,15 +107,42 @@ a:hover {
     padding: 0 10px;
 }
 
-.event-details {
-    margin: auto;
-    width: 60%;
-    text-align: center;
+
+@media (min-width: 600px) {
+    .event-details {
+        max-width: 80%;
+        margin: auto;
+    }
+}
+
+.speakers {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 20px;
+}
+
+.speakers a {
+    text-decoration: none;
+}
+
+.speakers p {
+    margin-top: 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.speakers img {
+    max-width: 300px;
+    max-height: 200px;
 }
 
 .address {
     line-height: 1.4em;
     margin-top: 1.5em;
+}
+
+.code-of-conduct {
+    margin: 2em 0;
 }
 
 .social {
