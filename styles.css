@@ -34,9 +34,12 @@ h2 {
     font-weight: normal;
 }
 
+h2.section {
+    font-weight: bold;
+}
+
 h3 {
     margin-top: 2em;
-    margin-bottom: 1.5em;
     font-size: 1.6em;
     font-weight: normal;
 }
@@ -240,7 +243,7 @@ a.register {
     border-radius: 8px;
     padding: 8px 30px;
     min-width: 240px;
-    margin: 1.5em 0 0.5em;
+    margin: 1em 0 1em;
     font-size: 2em;
     text-decoration: none;
     background-color: #7067f9;
