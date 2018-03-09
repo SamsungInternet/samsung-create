@@ -28,14 +28,20 @@ body {
 }
 
 h2 {
-    font-size: 2.2em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    font-size: 2em;
     font-weight: normal;
+}
+
+h2.section {
+    font-weight: bold;
 }
 
 h3 {
     margin-top: 2em;
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 1.6em;
+    font-weight: normal;
 }
 
 h4 {
@@ -155,6 +161,15 @@ nav li a:hover {
     color: #ddd;
 }
 
+nav li.register a,
+nav li.register a:visited {
+    color: #9f99f9;
+}
+
+nav li.register a:hover {
+    color: #8b84f9;
+}
+
 @media (min-width: 700px) {
     .hamburger-menu {
         display: none;
@@ -202,6 +217,19 @@ nav li a:hover {
     padding: 0 10px;
 }
 
+.date-and-location {
+    margin: 1.5em 0;
+}
+
+h4.topics {
+    font-size: 1.3em;
+}
+
+.topics em {
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+}
 
 @media (min-width: 600px) {
     .event-details {
@@ -215,7 +243,7 @@ a.register {
     border-radius: 8px;
     padding: 8px 30px;
     min-width: 240px;
-    margin: 1.5em 0 0.5em;
+    margin: 1em 0 1em;
     font-size: 2em;
     text-decoration: none;
     background-color: #7067f9;
