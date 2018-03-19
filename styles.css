@@ -272,6 +272,21 @@ a.register {
     max-height: 200px;
 }
 
+table.schedule {
+    border-collapse: collapse;
+    margin: 1em auto 3em auto;
+}
+
+.schedule thead {
+    font-weight: bold;
+}
+
+.schedule td {
+    border: 1px solid #666;
+    padding: 10px;
+    background-color: #eee;
+}
+
 .address {
     line-height: 1.4em;
     margin-top: 1.5em;
