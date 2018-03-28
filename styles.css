@@ -294,6 +294,7 @@ table.schedule {
 
 .schedule td:first-of-type {
     background-color: #c0bef5;
+    font-weight: normal;
 }
 
 .schedule thead td,
