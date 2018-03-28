@@ -284,7 +284,21 @@ table.schedule {
 .schedule td {
     border: 1px solid #666;
     padding: 10px;
-    background-color: #eee;
+    background-color: #f3f3f3;
+    font-weight: normal;
+}
+
+.schedule .break td {
+    font-weight: bold;
+}
+
+.schedule td:first-of-type {
+    background-color: #c0bef5;
+}
+
+.schedule thead td,
+.schedule thead td:first-of-type {
+    background-color: #a9a7f5;
 }
 
 .address {
