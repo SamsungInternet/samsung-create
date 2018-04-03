@@ -272,6 +272,37 @@ a.register {
     max-height: 200px;
 }
 
+table.schedule {
+    border-collapse: collapse;
+    margin: 1em auto 3em auto;
+    max-width: 700px;
+}
+
+.schedule thead {
+    font-weight: bold;
+}
+
+.schedule td {
+    border: 1px solid #666;
+    padding: 10px;
+    background-color: #f3f3f3;
+    font-weight: 600;
+}
+
+.schedule .break td {
+    font-weight: normal;
+}
+
+.schedule td:first-of-type {
+    background-color: #c0bef5;
+    font-weight: normal;
+}
+
+.schedule thead td,
+.schedule thead td:first-of-type {
+    background-color: #a9a7f5;
+}
+
 .address {
     line-height: 1.4em;
     margin-top: 1.5em;
