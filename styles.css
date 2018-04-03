@@ -286,11 +286,11 @@ table.schedule {
     border: 1px solid #666;
     padding: 10px;
     background-color: #f3f3f3;
-    font-weight: normal;
+    font-weight: 600;
 }
 
 .schedule .break td {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .schedule td:first-of-type {
