@@ -59,7 +59,8 @@ body {
     margin-top: 0.5em;
 }
 
-.session-details .session p {
+.session-details .session p,
+.session-details .session ul {
     font-size: 1em;
 }
 
