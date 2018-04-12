@@ -60,7 +60,7 @@ body {
 }
 
 .session-details .session p,
-.session-details .session ul {
+.session-details .session li {
     font-size: 1em;
 }
 
