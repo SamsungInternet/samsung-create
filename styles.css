@@ -23,8 +23,44 @@ body {
     }
 }
 
+.coc-page h2,
+.session-details-page h2 {
+    margin-top: 1em;
+}
+
 .code-of-conduct {
     text-align: left;
+}
+
+.session-details {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.session-details img {
+    margin-top: 1em;
+    max-width: 200px;
+}
+
+.session-details .session {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+.session-details .session:last-of-type {
+    border-bottom: none;
+}
+
+.session-details .session:first-of-type h3 {
+    margin-top: 1em;
+}
+
+.session-details .session h5 {
+    margin-top: 0.5em;
+}
+
+.session-details .session p {
+    font-size: 1em;
 }
 
 h2 {
@@ -197,10 +233,6 @@ nav li.register a:hover {
 .slogan img {
     max-width: 100%;
     max-width: calc(100% - 20px);
-}
-
-.coc-page .title img {
-    width: 200px;
 }
 
 .brand-logos {
