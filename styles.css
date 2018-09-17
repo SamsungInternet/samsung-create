@@ -241,13 +241,21 @@ nav li.register a:hover {
 }
 
 .title {
-    margin: 20px 0 30px;
+    margin: 40px 0 30px;
 }
 
 .title img,
 .slogan img {
     max-width: 100%;
     max-width: calc(100% - 20px);
+}
+
+.sdc-banner {
+    margin-top: 10px;
+}
+
+.sdc-banner img {
+    max-width: 100%;
 }
 
 .brand-logos {
@@ -294,6 +302,11 @@ span.register {
     font-size: 1.6em;
     text-decoration: none;
     background-color: #7067f9;
+    color: #fff;
+}
+
+span.register a,
+span.register a:hover {
     color: #fff;
 }
 
